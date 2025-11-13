@@ -1,15 +1,15 @@
 import Navigation from '@/components/Navigation';
-import Hero from '@/components/Hero';
+import Placements from '@/components/Placements';
 import Footer from '@/components/Footer';
 
-const Index = () => {
+const PlacementsPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
-      <Hero />
+      <Placements />
       <Footer />
     </div>
   );
 };
 
-export default Index;
+export default PlacementsPage;
